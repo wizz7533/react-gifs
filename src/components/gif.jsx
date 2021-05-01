@@ -3,10 +3,12 @@ import React, { Component } from 'react';
 class Gif extends Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        this.state = {
+           
+         }
     }
     render() {
-        const src = "https://media0.giphy.com/media/4oMoIbIQrvCjm/giphy.gif";
+        const src = `https://media0.giphy.com/media/${this.props.id}/giphy.gif`;
         return (
             <img src={src} alt="Bart_Simson_Dance" className="gif"/>
          );
