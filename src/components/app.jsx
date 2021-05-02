@@ -9,11 +9,11 @@ class App extends Component {
         super(props);
         this.state = {
             gifs: [],
-            selectedGifId: "xT9IgDEI1iZyb2wqo8"
+            selectedGifId: null//"xT9IgDEI1iZyb2wqo8"
         };
         
-        this.search = this.search.bind(this);
-        this.selectGif = this.selectGif.bind(this);
+        // this.search = this.search.bind(this);
+        // this.selectGif = this.selectGif.bind(this);
         
     }
 
